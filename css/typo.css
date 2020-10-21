@@ -1,0 +1,62 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.65;
+  color: white;
+}
+
+p {margin-bottom: 1.15rem;}
+
+
+h1,h2, h3, h4, h5,h6 {
+  margin: 2.75rem 0 1.05rem;
+  font-family: 'Bungee', cursive;
+  line-height: 1.15;
+}
+
+
+h1 {
+  margin-top: 1.5;
+  font-size: 3em;
+  text-align:center;
+}
+
+h2 {font-size: 2.441em;}
+
+h3 {font-size: 1.953em;}
+
+h4 {font-size: 1.563em;}
+
+h5 {font-size: 1.25em;
+color: yellow;}
+
+h6 {font-size: 1.25em;}
+.test {
+  color: pink;
+}
+.five {
+  font-size: 2.25em;
+}
+.titre{
+font-family: 'Audiowide', cursive;
+  color:blue;
+  font-size: 7em;
+}
+small, .text_small {font-size: 0.8em;}
+
+ul{
+  font-family: 'Audiowide', cursive;
+  color: blue;
+}
+footer{
+  font-family: 'Audiowide', cursive;
+}
+figcaption{
+  font-family: 'Audiowide', cursive;
+}

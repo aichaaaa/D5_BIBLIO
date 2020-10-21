@@ -1,0 +1,139 @@
+body{ background-color: #fff }
+
+header {
+  background: black;
+  padding: 10px;
+}
+h1{
+background: black;
+}
+header ul {
+color: yellow;
+  list-style-type:none ;
+}
+
+header li {
+  color: yellow;
+  border: none;
+}
+
+h5 {
+   background: yellow;
+}
+
+header a {
+  text-decoration: none;
+  color : blue;
+  padding:8px;
+  display:block;
+}
+
+.hero {
+  background: url('images/book.jpg') top center no-repeat;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+section {
+  min-height: 45vh;
+  padding: 42px;
+}
+
+.one {
+  display: flex;
+  flex-direction: row-reverse;
+  background: black;
+  }
+
+.two {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #292C34 ;
+}
+
+.threw {
+  display: flex;
+  background: black ;
+}
+
+.four {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #292C34 ;
+}
+
+.five {
+  display: flex;
+  background: black;
+  color: yellow;
+}
+
+.six {
+  display: flex;
+  background: #292C34 ;
+}
+
+.seven {
+  display: flex;
+  background: black ;
+}
+
+.eight {
+  display: flex;
+  background: #292C34 ;
+}
+
+.nine {
+  display: flex;
+  background: black ;
+}
+
+
+
+.image-block {
+  padding: 5px;
+  max-width: 640px;
+  min-width: 450px;
+  border: 10px;
+}
+
+.image-block img {
+  width : 100%;
+  display: block;
+}
+.content ,
+.illustration {
+  flex-basis: 480px;
+}
+
+
+figcaption {
+  font-family: 'Fahkwang', serif;
+  font-style: italic;
+  color: blue;
+}
+
+footer u {
+  list-style-type: none;
+  min-height: 100px;
+  background: #ffffff;
+  color : #fff;
+}
+
+footer li {
+  display: inline-block;
+  border: none;
+}
+
+footer nav {
+  text-decoration: none;
+  color : black;
+  padding:8px;
+  display: block;
+}
+
+section {
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
